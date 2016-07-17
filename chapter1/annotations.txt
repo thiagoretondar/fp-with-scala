@@ -1,0 +1,7 @@
+Pure functions:
+
+A function with input type A and output type B (written in Scala as a single type: A => B) is a computation which relates every value a of type A to exactly one value b of type B such that b is determined solely by the value of a.
+
+A function has no observable effect on the execution of the program other than to compute a result given its inputs.
+
+As we'll learn, any function with side effects can be split into a pure function at the "core" and possibly a pair of functions with side effects; one on the input side, and one on the output side.
